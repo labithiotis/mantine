@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-components-gallery-gallery-component-page-tsx",
+    "path": "/component/input-with-button",
+    "result": {"pageContext":{"_component":"InputWithButton","code":"import React from 'react';\nimport { TextInput, TextInputProps, Button } from '@mantine/core';\nimport { MagnifyingGlassIcon } from '@modulz/radix-icons';\n\nexport function InputWithButton(props: TextInputProps) {\n  return (\n    <TextInput\n      icon={<MagnifyingGlassIcon style={{ width: 20, height: 20 }} />}\n      radius=\"xl\"\n      size=\"md\"\n      rightSection={\n        <Button radius=\"xl\" styles={{ root: { height: 32 }, label: { lineHeight: '32px' } }}>\n          Search\n        </Button>\n      }\n      placeholder=\"Search questions\"\n      rightSectionWidth={100}\n      {...props}\n    />\n  );\n}\n","category":{"name":"Inputs","path":"/category/inputs/"},"url":"/component/input-with-button","attributes":{"title":"Input with contained button","category":"inputs","author":"rtivital","withColor":true,"dependencies":["/core/text-input/","/core/button/"],"canvas":{"center":true,"maxWidth":520}}}},
+    "staticQueryHashes": []}

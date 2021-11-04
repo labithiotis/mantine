@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-components-gallery-gallery-component-page-tsx",
+    "path": "/component/tag-picker",
+    "result": {"pageContext":{"_component":"TagPicker","code":"import React, { useState } from 'react';\nimport { MultiSelect } from '@mantine/core';\n\nexport function TagPicker() {\n  const [data, setData] = useState(['JavaScript', 'React', 'Angular', 'Vue', 'Svelte']);\n\n  return (\n    <MultiSelect\n      label=\"Select tags or create new one\"\n      placeholder=\"What you article is about?\"\n      data={data}\n      searchable\n      creatable\n      getCreateLabel={(query) => `+ Create ${query}`}\n      onCreate={(query) => setData((current) => [...current, query])}\n    />\n  );\n}\n","category":{"name":"Inputs","path":"/category/inputs/"},"url":"/component/tag-picker","attributes":{"title":"Creatable tag picker","category":"inputs","author":"rtivital","dependencies":["/core/multi-select/"],"canvas":{"center":true,"maxWidth":420}}}},
+    "staticQueryHashes": []}
